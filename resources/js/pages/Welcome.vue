@@ -1,18 +1,19 @@
 <script setup lang="ts">
-import { Head, Link } from '@inertiajs/vue3';
+import { Head } from '@inertiajs/vue3';
 </script>
 
 <template>
-    <Head title="Welcome">
+    <Head ">
         <link rel="preconnect" href="https://rsms.me/" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     </Head>
-    <div class="p-4 sm:p-8 max-w-3xl prose prose-slate">
+    <div class="px-4 sm:px-8 max-w-4xl prose prose-slate">
         <header>
-            <h1>Lee Pownall</h1>
+            <h2>Lee Pownall</h2>
         </header>
         <main>
-            <p class="lead">A Senior Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code. Currently a fan of the TALL stack.</p> 
+            <p>A Senior Developer from the West Midlands. Currently building things with Laravel.</p>
+            <p>We can connect on  <a href="https://www.linkedin.com/in/lee-pownall" target="_blank">LinkedIn</a>, <a href="https://github.com/leepownall" target="_blank">GitHub</a> or email at <a href="mailto:lee@pownall.uk">lee@pownall.uk</a>.</p>
         </main>
     </div>
 </template>
